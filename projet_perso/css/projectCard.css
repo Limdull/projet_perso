@@ -1,0 +1,14 @@
+.card{
+	 display: inline-block;
+	 position: relative;
+	 top: 710px;
+	 left:30%;
+	 border: 1px brown solid;
+	 padding : 5px;
+}
+/*code permettant de faire grossir l'image et de la décaler par rapport au autre carte de la main*/
+.card:hover > img{
+	/*active peut fonctionner mais empeche le drag and drop*/
+	transform:scale(2,2) translateY(-150px) translateX(-10px);
+	
+}
